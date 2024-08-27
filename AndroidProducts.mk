@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_RMX2020.mk
+     $(LOCAL_DIR)/omni_RMX3191.mk
