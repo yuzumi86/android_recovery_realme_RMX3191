@@ -25,13 +25,13 @@ $(call inherit-product, vendor/pb/config/common.mk)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
 
-PRODUCT_DEVICE := RMX2020
-PRODUCT_NAME := omni_RMX2020
+PRODUCT_DEVICE := RMX3191
+PRODUCT_NAME := omni_RMX3191
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMX2020
+PRODUCT_MODEL := RMX3191
 PRODUCT_MANUFACTURER := realme
-TW_DEVICE_VERSION := For RealmeUI 2.0 Base
-PRODUCT_SHIPPING_API_LEVEL := 29
+TW_DEVICE_VERSION := For Realme 2.0
+PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Dynamic
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
